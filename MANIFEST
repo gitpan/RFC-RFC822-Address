@@ -1,0 +1,7 @@
+lib/RFC/RFC822/Address.pm
+MANIFEST
+Makefile.PL
+t/000_tests.t
+Changes
+README
+META.yml                                 Module meta-data (added by MakeMaker)
