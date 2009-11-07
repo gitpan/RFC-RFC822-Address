@@ -13,7 +13,7 @@ our @EXPORT      = qw //;
 our @EXPORT_OK   = qw /valid/;
 our %EXPORT_TAGS = ();
 
-our $VERSION     = '2009040601';
+our $VERSION     = '2009110701';
 
 my $CRLF     = '\x0D\x0A';
 $Parse::RecDescent::skip = "((?:$CRLF)?[ \t])*";
@@ -32,7 +32,7 @@ sub valid ($) {$parser -> valid (shift)}
 
 =head1 NAME
 
-RFC::RFC822::Address  --  RFC 822 style address validation.
+RFC::RFC822::Address - RFC 822 style address validation.
 
 =head1 SYNOPSIS
 
