@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               RFC-RFC822-Address
-version:            2009110701
+version:            2009110702
 abstract:           RFC 822 style address validation.
 author:
     - Abigail <cpan@abigail.be>
@@ -11,10 +11,11 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Lingua::EN::Numbers:  1.01
-    perl:                 5.006
-    strict:               0
-    warnings:             0
+    Exporter:           0
+    Parse::RecDescent:  0
+    perl:               5.006
+    strict:             0
+    warnings:           0
 resources:
     repository:  git://github.com/Abigail/rfc--rfc822--address.git
 no_index:
